@@ -193,9 +193,12 @@ ul {
             min-height: 100vh; /* Ekranın tamamını kaplaması için */
         }
         
-        main {
-            flex: 1; /* Ana içerik bölümüne tüm boş alanı kullanmasını söyleyelim */
-        }
+main {
+    flex: 1; /* Ana içerik bölümüne tüm boş alanı kullanmasını söyleyelim */
+    display: flex; /* Flexbox kullanarak içeriği düzenleyelim */
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+}
 
        footer {
             background-color: #333;
@@ -238,9 +241,9 @@ ul {
             font-size: 1.1em; /* Hoover durumunda yazı boyutunu büyütelim */
         }
 </style>
+<center><img width="150" src="user.png">
+ <h1 class="main__heading">OldGuard Spoofer</h1></center>
 <main class="main flow">
-<center><img width="150" src="user.png"></center>
-  <h1 class="main__heading">OldGuard Spoofer</h1>
   <div class="main__cards cards">
     <div class="cards__inner">
       <div class="cards__card card">
